@@ -1,9 +1,9 @@
 # Objectives
 This is a web extension that should record the dom events/updates, network intents and user actions for a web application (espcially a SPA) recording all the observables as a linear reproducable webflow written as a json.
 ## Functional Requirements
-- [ ] Make a simple web extension with a popup having a 'Ready to record' button
-- [ ] Make the web extension to be able to display a floating record button when the user clicks ready to record on the extension popup by injecting scripts into the active tab.
-- [ ] Save an initial DOM Snapshot of the page after the user toggles record.
+- [x] Make a simple web extension with a popup having a 'Ready to record' button
+- [x] Make the web extension to be able to display a floating record button when the user clicks ready to record on the extension popup by injecting scripts into the active tab.
+- [ ] Save an initial DOM Snapshot of the page after the user toggles record. [Refer Offscreen as Service Workers don't have DOM access] (https://developer.chrome.com/docs/extensions/reference/api/offscreen)
 - [ ] Record all dom events/updates using content scripts.
 - [ ] Record all network intents using content scripts.
 - [ ] Record all user actions using content scripts.
