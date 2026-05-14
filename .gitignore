@@ -1,0 +1,7 @@
+# general secrets and build files
+.env
+package-lock.json
+node_modules/
+
+# Local Extension Builds to understand manifest v3
+extensions_learning/

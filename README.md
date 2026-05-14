@@ -1,10 +1,12 @@
 # Objectives
 This is a web extension that should record the dom events/updates, network intents and user actions for a web application (espcially a SPA) recording all the observables as a linear reproducable webflow written as a json.
 ## Functional Requirements
-- [ ] Make a simple web extension
-- [ ] Record all dom events/updates, 
-- [ ] Record all network intents 
-- [ ] Record all user actions
+- [ ] Make a simple web extension with a popup having a 'Ready to record' button
+- [ ] Make the web extension to be able to display a floating record button when the user clicks ready to record on the extension popup by injecting scripts into the active tab.
+- [ ] Save an initial DOM Snapshot of the page after the user toggles record.
+- [ ] Record all dom events/updates using content scripts.
+- [ ] Record all network intents using content scripts.
+- [ ] Record all user actions using content scripts.
 - [ ] Package all the observables in a linear reproducable webflow json doc
 - [ ] How to save that json doc on the user's local machine
 ## Improvements and Extensions
